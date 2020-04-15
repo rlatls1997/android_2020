@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AlertsActivity"
+            android:label="@string/action_alerts"/>
+        <activity
             android:name=".SpinnersActivity"
-            android:label="@string/action_spinners"/>
+            android:label="@string/action_spinners" />
         <activity android:name=".CheckboxesActivity" />
         <activity
             android:name=".ButtonsActivity"
